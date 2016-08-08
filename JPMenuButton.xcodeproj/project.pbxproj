@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2745F691D581DA500B7E20D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2745F681D581DA500B7E20D /* main.m */; };
+		F2745F6C1D581DA500B7E20D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2745F6B1D581DA500B7E20D /* AppDelegate.m */; };
+		F2745F6F1D581DA500B7E20D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2745F6E1D581DA500B7E20D /* ViewController.m */; };
+		F2745F721D581DA500B7E20D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2745F701D581DA500B7E20D /* Main.storyboard */; };
+		F2745F741D581DA500B7E20D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2745F731D581DA500B7E20D /* Assets.xcassets */; };
+		F2745F771D581DA500B7E20D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2745F751D581DA500B7E20D /* LaunchScreen.storyboard */; };
+		F2745F821D581DA500B7E20D /* JPMenuButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2745F811D581DA500B7E20D /* JPMenuButtonTests.m */; };
+		F2745F8D1D581DA500B7E20D /* JPMenuButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2745F8C1D581DA500B7E20D /* JPMenuButtonUITests.m */; };
+		F2745F9C1D581DCC00B7E20D /* JPMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F2745F9B1D581DCC00B7E20D /* JPMenuButton.m */; };
+		F2745FA01D5829DF00B7E20D /* JPMenuButtonTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2745F9F1D5829DF00B7E20D /* JPMenuButtonTriangleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2745F7E1D581DA500B7E20D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2745F5C1D581DA500B7E20D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2745F631D581DA500B7E20D;
+			remoteInfo = JPMenuButton;
+		};
+		F2745F891D581DA500B7E20D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2745F5C1D581DA500B7E20D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2745F631D581DA500B7E20D;
+			remoteInfo = JPMenuButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2745F641D581DA500B7E20D /* JPMenuButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMenuButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2745F681D581DA500B7E20D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2745F6A1D581DA500B7E20D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2745F6B1D581DA500B7E20D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2745F6D1D581DA500B7E20D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2745F6E1D581DA500B7E20D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2745F711D581DA500B7E20D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2745F731D581DA500B7E20D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2745F761D581DA500B7E20D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2745F781D581DA500B7E20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2745F7D1D581DA500B7E20D /* JPMenuButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMenuButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2745F811D581DA500B7E20D /* JPMenuButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPMenuButtonTests.m; sourceTree = "<group>"; };
+		F2745F831D581DA500B7E20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2745F881D581DA500B7E20D /* JPMenuButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMenuButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2745F8C1D581DA500B7E20D /* JPMenuButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPMenuButtonUITests.m; sourceTree = "<group>"; };
+		F2745F8E1D581DA500B7E20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2745F9A1D581DCC00B7E20D /* JPMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMenuButton.h; sourceTree = "<group>"; };
+		F2745F9B1D581DCC00B7E20D /* JPMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMenuButton.m; sourceTree = "<group>"; };
+		F2745F9E1D5829DF00B7E20D /* JPMenuButtonTriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMenuButtonTriangleView.h; sourceTree = "<group>"; };
+		F2745F9F1D5829DF00B7E20D /* JPMenuButtonTriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMenuButtonTriangleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2745F611D581DA500B7E20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2745F7A1D581DA500B7E20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2745F851D581DA500B7E20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2745F5B1D581DA500B7E20D = {
+			isa = PBXGroup;
+			children = (
+				F2745F661D581DA500B7E20D /* JPMenuButton */,
+				F2745F801D581DA500B7E20D /* JPMenuButtonTests */,
+				F2745F8B1D581DA500B7E20D /* JPMenuButtonUITests */,
+				F2745F651D581DA500B7E20D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2745F651D581DA500B7E20D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2745F641D581DA500B7E20D /* JPMenuButton.app */,
+				F2745F7D1D581DA500B7E20D /* JPMenuButtonTests.xctest */,
+				F2745F881D581DA500B7E20D /* JPMenuButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2745F661D581DA500B7E20D /* JPMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				F2745F9D1D581DD600B7E20D /* class */,
+				F2745F6A1D581DA500B7E20D /* AppDelegate.h */,
+				F2745F6B1D581DA500B7E20D /* AppDelegate.m */,
+				F2745F6D1D581DA500B7E20D /* ViewController.h */,
+				F2745F6E1D581DA500B7E20D /* ViewController.m */,
+				F2745F701D581DA500B7E20D /* Main.storyboard */,
+				F2745F731D581DA500B7E20D /* Assets.xcassets */,
+				F2745F751D581DA500B7E20D /* LaunchScreen.storyboard */,
+				F2745F781D581DA500B7E20D /* Info.plist */,
+				F2745F671D581DA500B7E20D /* Supporting Files */,
+			);
+			path = JPMenuButton;
+			sourceTree = "<group>";
+		};
+		F2745F671D581DA500B7E20D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2745F681D581DA500B7E20D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2745F801D581DA500B7E20D /* JPMenuButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2745F811D581DA500B7E20D /* JPMenuButtonTests.m */,
+				F2745F831D581DA500B7E20D /* Info.plist */,
+			);
+			path = JPMenuButtonTests;
+			sourceTree = "<group>";
+		};
+		F2745F8B1D581DA500B7E20D /* JPMenuButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2745F8C1D581DA500B7E20D /* JPMenuButtonUITests.m */,
+				F2745F8E1D581DA500B7E20D /* Info.plist */,
+			);
+			path = JPMenuButtonUITests;
+			sourceTree = "<group>";
+		};
+		F2745F9D1D581DD600B7E20D /* class */ = {
+			isa = PBXGroup;
+			children = (
+				F2745F9A1D581DCC00B7E20D /* JPMenuButton.h */,
+				F2745F9B1D581DCC00B7E20D /* JPMenuButton.m */,
+				F2745F9E1D5829DF00B7E20D /* JPMenuButtonTriangleView.h */,
+				F2745F9F1D5829DF00B7E20D /* JPMenuButtonTriangleView.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2745F631D581DA500B7E20D /* JPMenuButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2745F911D581DA500B7E20D /* Build configuration list for PBXNativeTarget "JPMenuButton" */;
+			buildPhases = (
+				F2745F601D581DA500B7E20D /* Sources */,
+				F2745F611D581DA500B7E20D /* Frameworks */,
+				F2745F621D581DA500B7E20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPMenuButton;
+			productName = JPMenuButton;
+			productReference = F2745F641D581DA500B7E20D /* JPMenuButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2745F7C1D581DA500B7E20D /* JPMenuButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2745F941D581DA500B7E20D /* Build configuration list for PBXNativeTarget "JPMenuButtonTests" */;
+			buildPhases = (
+				F2745F791D581DA500B7E20D /* Sources */,
+				F2745F7A1D581DA500B7E20D /* Frameworks */,
+				F2745F7B1D581DA500B7E20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2745F7F1D581DA500B7E20D /* PBXTargetDependency */,
+			);
+			name = JPMenuButtonTests;
+			productName = JPMenuButtonTests;
+			productReference = F2745F7D1D581DA500B7E20D /* JPMenuButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2745F871D581DA500B7E20D /* JPMenuButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2745F971D581DA500B7E20D /* Build configuration list for PBXNativeTarget "JPMenuButtonUITests" */;
+			buildPhases = (
+				F2745F841D581DA500B7E20D /* Sources */,
+				F2745F851D581DA500B7E20D /* Frameworks */,
+				F2745F861D581DA500B7E20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2745F8A1D581DA500B7E20D /* PBXTargetDependency */,
+			);
+			name = JPMenuButtonUITests;
+			productName = JPMenuButtonUITests;
+			productReference = F2745F881D581DA500B7E20D /* JPMenuButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2745F5C1D581DA500B7E20D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JaryPan;
+				TargetAttributes = {
+					F2745F631D581DA500B7E20D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F2745F7C1D581DA500B7E20D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F2745F631D581DA500B7E20D;
+					};
+					F2745F871D581DA500B7E20D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F2745F631D581DA500B7E20D;
+					};
+				};
+			};
+			buildConfigurationList = F2745F5F1D581DA500B7E20D /* Build configuration list for PBXProject "JPMenuButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2745F5B1D581DA500B7E20D;
+			productRefGroup = F2745F651D581DA500B7E20D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2745F631D581DA500B7E20D /* JPMenuButton */,
+				F2745F7C1D581DA500B7E20D /* JPMenuButtonTests */,
+				F2745F871D581DA500B7E20D /* JPMenuButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2745F621D581DA500B7E20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2745F771D581DA500B7E20D /* LaunchScreen.storyboard in Resources */,
+				F2745F741D581DA500B7E20D /* Assets.xcassets in Resources */,
+				F2745F721D581DA500B7E20D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2745F7B1D581DA500B7E20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2745F861D581DA500B7E20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2745F601D581DA500B7E20D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2745FA01D5829DF00B7E20D /* JPMenuButtonTriangleView.m in Sources */,
+				F2745F9C1D581DCC00B7E20D /* JPMenuButton.m in Sources */,
+				F2745F6F1D581DA500B7E20D /* ViewController.m in Sources */,
+				F2745F6C1D581DA500B7E20D /* AppDelegate.m in Sources */,
+				F2745F691D581DA500B7E20D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2745F791D581DA500B7E20D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2745F821D581DA500B7E20D /* JPMenuButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2745F841D581DA500B7E20D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2745F8D1D581DA500B7E20D /* JPMenuButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2745F7F1D581DA500B7E20D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2745F631D581DA500B7E20D /* JPMenuButton */;
+			targetProxy = F2745F7E1D581DA500B7E20D /* PBXContainerItemProxy */;
+		};
+		F2745F8A1D581DA500B7E20D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2745F631D581DA500B7E20D /* JPMenuButton */;
+			targetProxy = F2745F891D581DA500B7E20D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2745F701D581DA500B7E20D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2745F711D581DA500B7E20D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2745F751D581DA500B7E20D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2745F761D581DA500B7E20D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2745F8F1D581DA500B7E20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2745F901D581DA500B7E20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2745F921D581DA500B7E20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPMenuButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPMenuButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2745F931D581DA500B7E20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPMenuButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPMenuButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2745F951D581DA500B7E20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JPMenuButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPMenuButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMenuButton.app/JPMenuButton";
+			};
+			name = Debug;
+		};
+		F2745F961D581DA500B7E20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JPMenuButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPMenuButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMenuButton.app/JPMenuButton";
+			};
+			name = Release;
+		};
+		F2745F981D581DA500B7E20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JPMenuButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPMenuButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPMenuButton;
+			};
+			name = Debug;
+		};
+		F2745F991D581DA500B7E20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JPMenuButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPMenuButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPMenuButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2745F5F1D581DA500B7E20D /* Build configuration list for PBXProject "JPMenuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2745F8F1D581DA500B7E20D /* Debug */,
+				F2745F901D581DA500B7E20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2745F911D581DA500B7E20D /* Build configuration list for PBXNativeTarget "JPMenuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2745F921D581DA500B7E20D /* Debug */,
+				F2745F931D581DA500B7E20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2745F941D581DA500B7E20D /* Build configuration list for PBXNativeTarget "JPMenuButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2745F951D581DA500B7E20D /* Debug */,
+				F2745F961D581DA500B7E20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2745F971D581DA500B7E20D /* Build configuration list for PBXNativeTarget "JPMenuButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2745F981D581DA500B7E20D /* Debug */,
+				F2745F991D581DA500B7E20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2745F5C1D581DA500B7E20D /* Project object */;
+}
